@@ -17,19 +17,6 @@ Design and implement a stable relational data model for:
 The goal is to ensure **data correctness at both the application and database layers**, prevent invalid states, and support real-world appointment workflows.
 
 ---
-
-## Why This Matters
-
-Incorrect data modeling leads to:
-
-* Silent data corruption
-* Conflicting appointments
-* Hard-to-debug production issues
-
-This assignment enforces **explicit validation boundaries** so invalid data cannot enter the system—**even accidentally**.
-
----
-
 ## Domain Design Overview
 
 ### Entities
